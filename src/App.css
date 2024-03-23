@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  margin: auto;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.bg-custom {
+  background-color: #283445;
+}
+
+.main-background {
+  background-image: url("./assets/asset-background.jpeg");
+  background-size: auto 100%;
+  min-height: 100vh;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.navbar-custom {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: transparent;
+  height: 100px;
+}
+
+h1,
+h3,
+h4,
+h6 {
+  letter-spacing: 0.5px !important;
+}
+
+.btn-ventana1 {
+  font-size: 14px !important;
+  border-radius: 5% !important;
+}
+
+.btn-ventana2 {
+  font-size: 14px !important;
+  border-radius: 5% !important;
+  border: 1px solid #999 !important;
+}
+
+.ourServices-custom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  background-color: #3871ff;
+  border-radius: 50%;
+}
+
+.h6-ourServices {
+  font-size: 12px !important;
+}
+
+p {
+  font-size: 14px;
+  line-height: 200%;
+  color: #999;
+}
+
+.bg-custom-technologies {
+  background-color: #3871ff;
+  position: relative;
+  top: -90px;
+}
+
+.technologies-custom {
+  width: 40% !important;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.clients-custom {
+  color: #999;
+  padding: 0 170px !important;
+}
+
+.bg-custom-card2 {
+  background-color: #3871ff;
+}
+
+.btn-ventana-cards2 {
+  font-size: 14px !important;
+  border-radius: 5% !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.relative-container {
+  position: relative !important;
+  width: 40%;
+  overflow-y: hidden !important;
+}
+
+.watch {
+  width: 200px !important;
+  height: auto !important;
+  position: absolute !important;
+  left: 12px !important;
+}
+
+.footer-custom {
+  background-color: #283445;
+  position: absolute;
+  top: -90px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 300px;
+  padding: 100px 30px 30px 10px;
+}
+
+.footer-custom-container {
+  padding: 20px 0px 0px 80px;
+  color: #999
+}
+
+.footer-custom-container-icons{
+  width: 140px;
+}

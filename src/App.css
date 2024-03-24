@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "Circular";
+  src: url("./font/CircularStd-Book.otf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Circular";
 }
 
 body {
@@ -38,6 +44,10 @@ main {
   height: 100px;
 }
 
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
 h1,
 h3,
 h4,
@@ -45,9 +55,43 @@ h6 {
   letter-spacing: 0.5px !important;
 }
 
+/* BOTON ANIMACION */
 .btn-ventana1 {
-  font-size: 14px !important;
+  padding: 15px 25px;
+  border: unset;
   border-radius: 5% !important;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 14px !important;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+.btn-ventana1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 5%;
+  background-color: #1437e1;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.btn-ventana1:hover {
+  color: #e8e8e8;
+}
+
+.btn-ventana1:hover::before {
+  width: 100%;
 }
 
 .btn-ventana2 {
@@ -134,15 +178,66 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  height: 300px;
+  height:fit-content;
   padding: 100px 30px 30px 10px;
 }
 
 .footer-custom-container {
   padding: 20px 0px 0px 80px;
-  color: #999
+  color: #999;
 }
 
-.footer-custom-container-icons{
+.footer-custom-container a:hover{
+  text-decoration: underline;
+}
+
+.footer-custom-container-icons {
   width: 140px;
 }
+
+.footer-custom-container-icons a:hover {
+  color: white;
+}
+
+.card-responsive{
+  width: 25% !important;
+}
+
+@media (max-width:992px) {
+  .ourServices-custom {
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .card-responsive{
+    width: 100% !important;
+  }
+
+  .card-2-responsive{
+    padding: 0 !important;
+  }
+
+  .relative-container {
+    overflow-x: hidden !important;
+    padding-right: 0 !important;
+  }
+  
+  .watch {
+   right: 0 !important;
+  }
+
+  .footer-custom-container-responsive{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-custom-container-responsive > p {
+    text-align: justify;
+  }
+
+}
+

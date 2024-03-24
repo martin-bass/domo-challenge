@@ -6,8 +6,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Cards() {
   return (
-    <div className="d-flex flex-row container row justify-content-center p-4 gap-5 z-2">
-      <div className="border border-white w-25 bg-white text-center rounded p-4 col-6 h-100">
+    <div className="d-flex flex-lg-row flex-column container justify-content-center p-4 gap-5 z-2">
+      <div className="card-responsive border border-white bg-white text-center rounded p-4 col-6 h-100">
         <div className="icon-container d-flex justify-content-center align-items-center m-auto">
           <i class="bi bi-file-earmark-text text-white fs-2"></i>
         </div>
@@ -24,7 +24,7 @@ function Cards() {
           Learn more
         </button>
       </div>
-      <div className="border border-white w-25 bg-white text-center rounded p-4 col-6 h-100">
+      <div className="card-responsive border border-white bg-white text-center rounded p-4 col-6 h-100">
         <div className="icon-container d-flex justify-content-center align-items-center m-auto">
         <i class="bi bi-pc-display-horizontal text-white fs-2"></i>
         </div>
@@ -41,7 +41,7 @@ function Cards() {
           Learn more
         </button>
       </div>
-      <div className="border border-white w-25 bg-white text-center rounded p-4 col-6 h-100">
+      <div className="card-responsive border border-white bg-white text-center rounded p-4 col-6 h-100">
         <div className="icon-container d-flex justify-content-center align-items-center m-auto">
         <i class="bi bi-pencil-square text-white fs-2"></i>
         </div>

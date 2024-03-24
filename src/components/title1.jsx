@@ -18,7 +18,7 @@ function Title1() {
       <div className="d-flex flex-row mt-3 p-2">
         <button
           type="button"
-          class="btn btn-outline-secondary me-3 py-2 px-4 btn-ventana1"
+          class="btn btn-outline-secondary me-3 py-2 px-4 btn-ventana2"
         >
           Learn more
         </button>

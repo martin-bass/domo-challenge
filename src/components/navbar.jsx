@@ -3,7 +3,7 @@ import "../App.css";
 
 function navbar() {
   return (
-    <nav className="navbar-custom navbar-expand-lg p-2">
+    <nav className="navbar-custom navbar-expand-lg p-2 d-none d-lg-block">
       <div className="collapse navbar-collapse d-flex justify-content-between px-5">
         <div className="p-5 fw-bold">
           <a className="nav-link " href="#">

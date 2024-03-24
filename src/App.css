@@ -178,7 +178,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  height:fit-content;
+  height: fit-content;
   padding: 100px 30px 30px 10px;
 }
 
@@ -187,7 +187,7 @@ p {
   color: #999;
 }
 
-.footer-custom-container a:hover{
+.footer-custom-container a:hover {
   text-decoration: underline;
 }
 
@@ -199,21 +199,21 @@ p {
   color: white;
 }
 
-.card-responsive{
+.card-responsive {
   width: 25% !important;
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
   .ourServices-custom {
     position: relative;
     padding-top: 20px;
   }
 
-  .card-responsive{
+  .card-responsive {
     width: 100% !important;
   }
 
-  .card-2-responsive{
+  .card-2-responsive {
     padding: 0 !important;
   }
 
@@ -221,12 +221,12 @@ p {
     overflow-x: hidden !important;
     padding-right: 0 !important;
   }
-  
+
   .watch {
-   right: 0 !important;
+    right: 0 !important;
   }
 
-  .footer-custom-container-responsive{
+  .footer-custom-container-responsive {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -238,6 +238,20 @@ p {
   .footer-custom-container-responsive > p {
     text-align: justify;
   }
-
 }
 
+@media (max-width:360px){
+  .clients-custom {
+    padding: 0 !important
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .footer-custom-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

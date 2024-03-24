@@ -15,14 +15,14 @@ function Title1() {
         <br />
         Ready for the journey?
       </h6>
-      <div className="d-flex flex-row mt-3 p-2">
+      <div className="d-flex flex-sm-row flex-column  mt-3 p-2">
         <button
           type="button"
           class="btn btn-outline-secondary me-3 py-2 px-4 btn-ventana2"
         >
           Learn more
         </button>
-        <button type="button" class="btn btn-primary py-2 px-4 btn-ventana1">
+        <button type="button" class="btn btn-primary py-2 px-4 mt-sm-0 mt-3 btn-ventana1">
           Our Projects  →
         </button>
       </div>

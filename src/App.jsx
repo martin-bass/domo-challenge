@@ -16,7 +16,7 @@ function App() {
       <section className="d-flex flex-column bg-custom position-relative">
         <Navbar />
         <div className="d-flex flex-row flex-lg-row justify-content-lg-between">
-          <div className="bg-custom w-lg-50 text-white m-auto ms-5 ">
+          <div className="bg-custom w-lg-50 text-white m-auto ms-lg-5 ">
             <Title1 />
           </div>
           <div className="main-background w-50 d-none d-lg-block"></div>

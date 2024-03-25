@@ -5,6 +5,8 @@ import "../App.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Footer() {
+  const anioActual = new Date().getFullYear();
+
   return (
     <div className="footer-custom d-flex flex-lg-row flex-column ">
       <div className="w-lg-50 w-100 footer-custom-container footer-custom-container-responsive">
@@ -78,6 +80,12 @@ function Footer() {
             <p className="mb-0">Hire us</p>
           </a>
         </div>
+      </div>
+      <div className="text-white position-absolute bottom-0 p-0 mt-5">
+        {anioActual} Developed by Martín Lopez - e-mail: martin_reym@hotmail.com{" "}
+        <a href="https://www.linkedin.com/in/martinariellopez/" target="_blank">
+          <i class="bi bi-linkedin text-white"></i>
+        </a>
       </div>
     </div>
   );

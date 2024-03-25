@@ -26,7 +26,7 @@ function Cards() {
       </div>
       <div className="card-responsive border border-white bg-white text-center rounded p-4 col-6 h-100">
         <div className="icon-container d-flex justify-content-center align-items-center m-auto">
-        <i class="bi bi-pc-display-horizontal text-white fs-2"></i>
+          <i class="bi bi-pc-display-horizontal text-white fs-2"></i>
         </div>
         <h6 className="fs-6 mt-3">Web & Mobile Development</h6>
         <p className="mt-3">
@@ -43,7 +43,7 @@ function Cards() {
       </div>
       <div className="card-responsive border border-white bg-white text-center rounded p-4 col-6 h-100">
         <div className="icon-container d-flex justify-content-center align-items-center m-auto">
-        <i class="bi bi-pencil-square text-white fs-2"></i>
+          <i class="bi bi-pencil-square text-white fs-2"></i>
         </div>
         <h6 className="fs-6 mt-3">UX & UI Design</h6>
         <p className="mt-3">
